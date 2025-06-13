@@ -1,0 +1,20 @@
+{
+  "name": "anthropic-agent-ts",
+  "version": "1.0.0",
+  "description": "TypeScript version of Go Anthropic Agent",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.54.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
